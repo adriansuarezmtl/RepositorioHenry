@@ -3,16 +3,22 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <link rel="stylesheet" type="text/css" href="reset.css">
       <title>Mi Primer Sitio Web</title>
    </head>
    <body>
 
     <header> 
-    <h1>APRENDE ESPAÑOL EN COLOMBIA</h1> 
-    <span>HOME</span>
-    <span>PRECIOS</span>
-    <span>CONTÁCTENOS</span> 
-    <hr />    
+     <div id="TitleWebpage">
+     <h1>APRENDE ESPAÑOL EN COLOMBIA</h1> 
+     </div>
+      <div id="Menu">
+      <a href="index.html">HOME</a>
+      <a href="index.html">PRECIOS</a>
+      <a href="index.html">CONTÁCTENOS</a> 
+      </div>
+     <hr />    
     </header>
 
     <main>
@@ -34,11 +40,19 @@
             </ol>
             </div>
         
-            <img src="bandera-colombia-ST.jpg"/>
+            <div id="MainImage">
+            <img src="bandera-colombia-ST.jpg" id="BanderaCOL"/>
+            </div>
 
             <hr />
         <article>
-            <h2>APRENDE ESPAÑOL EN BOGOTÁ COLOMBIA</h2>
+            <div>
+            <h2 class="TitleH2">APRENDE ESPAÑOL EN BOGOTÁ COLOMBIA</h2>
+            </div>
+            <div class="ImagesCiudades">
+            <img src="Bogota Paisaje 1.jpeg" class="Images">
+            <img src="Centro de la ciudad - El centro de Bogotá-Bogotá de noche.jpg" class="Images">
+            </div>
             <p>
             Bogotá es una ciudad vibrante que ofrece un entorno ideal para sumergirte en el español. Aquí podrás:
             </p>
@@ -69,7 +83,13 @@
         </article>
 
         <article>
-            <h2>APRENDE ESPAÑOL EN MEDELLÍN COLOMBIA</h2>
+            <div>
+            <h2 class="TitleH2">APRENDE ESPAÑOL EN MEDELLÍN COLOMBIA</h2>
+            </div>
+            <div class="ImagesCiudades">
+              <img src="Llantas_Medellin_big.jpg" class="Images">
+              <img src="medellin-travelers-apartamentos-suites-colombia.jpeg" class="Images">
+            </div>
             <p>
             Medellín es una ciudad que ha renacido y se ha convertido en un destino turístico muy popular. Si estás pensando en aprender español, esta ciudad colombiana te ofrece una experiencia única. Aquí tienes algunas razones:
             </p>
@@ -100,7 +120,13 @@
         </article>
 
         <article>
-            <h2>APRENDE ESPAÑOL EN CARTAGENA COLOMBIA</h3>
+            <div>
+            <h2 class="TitleH2">APRENDE ESPAÑOL EN CARTAGENA COLOMBIA</h3>
+            </div>
+              <div class="ImagesCiudades">
+                <img src="i.6573cafb97322bf734cb8cf21a029462.jpg" class="Images">
+                <img src="Atardecer_en_Cartagena_de_Indias_desde_La_Popa..jpg" class="Images">
+              </div>
             <p>
             Cartagena de Indias, con su rica historia, arquitectura colonial y playas paradisíacas, es un destino ideal para aprender español mientras disfrutas de la belleza del Caribe colombiano. Aquí te presentamos algunas razones por las que deberías considerar Cartagena:   
             </p>
@@ -133,6 +159,7 @@
      </section> 
      <section>
      <form>
+    <div id="Form">
       <h2>FORMULARIO PARA SUSCRIBIRSE</h2>
       <p>En este formulario debes llenar tu información de contacto</p>
       <div>
@@ -160,18 +187,21 @@
         <input type="number" name="Número Télefonico" placeholder="Número Télefonico"/>  
       </div>
       <button>ENVIAR</button>
+    </div>
       <hr />
      </form>
      </section> 
     </main>
     
     <footer>
+      <div id="Footer">
         <a href="index.html"> Política de privacidad </a>
         <a href="index.html"> Condiciones de uso </a>
         <a href="index.html"> Política de cookies </a>
         <a href="index.html"> Contacto</a>
         <a href="index.html"> Control parental </a>
         <a href="index.html"> Twitter </a>
+      </div>
     </footer>
  
    </body>
